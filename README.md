@@ -43,3 +43,16 @@ Now, with the data lake infrastructure in place, I then used [AWS Data Lake Form
 Here are the dashboard and sidebar of AWS Lake Formation, which shows the different things you can do with the tool:
 ![Dashboard](https://github.com/rbpeng/stat359_final_report/blob/master/AWS%20Lake%20Formation%20Dashboard.PNG?raw=true)
 ![Sidebar](https://github.com/rbpeng/stat359_final_report/blob/master/AWS%20Lake%20Formation%20Sidebar.PNG?raw=true)
+
+Basically, the steps needed to create and manage a data lake through Lake Formation involve: 
+1. Registering an Amazon S3 path as a data lake.
+2. Granting Lake Formation permissions to write to the Data Catalog and to Amazon S3 locations in the data lake.
+3. Creating a database to organize the metadata tables in the Data Catalog.
+4. Using blueprints to create a workflow and running the workflow to ingest data from a data source.
+5. Setting up permissions to allow others to manage data in the Data Catalog and the data lake.
+6. Setting up Amazon Athena to query the data that you imported into the data lake.
+7. Setting up Amazon Redshift Spectrum to query the data that you imported into the S3 data lake.
+
+## Further Insights
+
+Data acquisition and ingestion is one part of the data science pipeline, but it is an extremely pivotal part. Before any analysis is done or any models are created, one needs the data to be stored and managed properly in a manner that allows for analysis and model-building. Nowadays, more and more companies are turning to a data lake infrastructure to handle data ingestion and storage, as data lakes are extremely flexible and allow data of all types to be stored in its raw format. Having an efficient and organized data ingestion pipeline is critical in any data science project, as this is the first step that any data science business must take before any analytics, predictive modeling, or reporting can occur. The need to have a central repository, whether it be a data lake or some other infrastructure, is also very important, as without it, a business is at risk of having different groups performing analytics with incomplete or conflicting data sets, which then has the potential to deliver inconsistent results. When working on a data science project, people tend to think of analytics and results and tend to forget about the data ingestion and management portions, when these portions are just as important in the context of the big picture. Having an efficient, streamlined data ingestion pipeline is a critical component of making sure that the entire data science infrastructure is running smoothly.
