@@ -1,2 +1,7 @@
-# stat359_final_report
-Final report for STAT 359 Data Science Project
+# Final report for STAT 359 Data Science Project
+
+## Introduction
+
+During the course of this class, I worked mainly on the data acquisition and data ingestion portions of the project. At the beginning of the course, I worked on familiarizing myself with Python and using Python to acquire time series data from Alpha Vantage APIs, which can be found [here](https://github.com/rbpeng/stat359_project1). In particular, I wrote wrapper functions to obtain daily equity data, daily currency exchange rate data, and intraday currency exchange rate data, which takes produces csv files of the requested data. 
+
+After working on this data acquisition project, I followed Professor Liu's advice and shifted to projects more aligned with the data ingestion and management portions of the data science pipeline. In particular, I focused on data lake infrastructures, which are centralized repositories that allows you to store all your data (both structured and unstructured) at any scale. In addition to doing research on data lakes, including setup of data lakes, cloud platforms to host data lake structures, organization of data lakes, limitations, and various other aspects, I also deployed a sample data lake infrastructure using AWS. I then explored various features of data lakes using guides from AWS, which allowed me to perform search, transforms, queries, analytics, and visualization of sample data provided by the AWS Data Lake demo. 
