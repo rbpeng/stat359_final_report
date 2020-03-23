@@ -82,8 +82,10 @@ Clicking on "Grant" in the above screenshot leads to:
 ![Grant Permissions](https://github.com/rbpeng/stat359_final_report/blob/master/AWS%20Lake%20Formation%20Grant%20Permissions.PNG?raw=true)
 
 Step 6:
-This is where the analytics portion of the data science pipeline begins and the data ingestion portion ends! As of step 5, we have finished setting up the data lake architecture with Lake Formation. Here is a diagram of where Lake Formation fits into the data science framework:
+This is where the analytics portion of the data science pipeline begins and the data ingestion portion ends! As of step 5, we have finished setting up the data lake architecture with Lake Formation (and so I didn't work a great deal with these analytics tools beyond what was in the demo walkthrough). Here is a diagram of where Lake Formation fits into the data science framework:
 ![Lake Formation](https://docs.aws.amazon.com/lake-formation/latest/dg/images/overview-diagram.png)
+
+With AWS Lake Formation, we now have a centralized platform to build, secure, and manage the data lake foundation that we deployed above.
 
 ## Further Insights
 
