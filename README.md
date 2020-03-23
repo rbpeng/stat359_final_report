@@ -54,7 +54,7 @@ Basically, the steps needed to set up a data lake through Lake Formation involve
 
 Here are screenshots showing how to accomplish each of these steps through Lake Formation:
 
-Step 1:
+*Step 1:*
 ![Linking a Path as a Data Lake](https://github.com/rbpeng/stat359_final_report/blob/master/AWS%20Lake%20Formation%20How%20to%20Link%20a%20Database.PNG?raw=true)
 
 ![Data Lake Locations](https://github.com/rbpeng/stat359_final_report/blob/master/AWS%20Lake%20Formation%20Data%20Lake%20Locations.PNG?raw=true)
@@ -62,26 +62,27 @@ Step 1:
 This is the S3 bucket that the data lake is pointing to:
 ![S3 bucket](https://github.com/rbpeng/stat359_final_report/blob/master/AWS%20S3%20Submissions%20Bucket.PNG?raw=true)
 
-Step 2:
+*Step 2:*
 ![Administrators](https://github.com/rbpeng/stat359_final_report/blob/master/AWS%20Lake%20Formation%20Admins%20and%20Database%20Creators.PNG?raw=true)
 ![Manage Administrators](https://github.com/rbpeng/stat359_final_report/blob/master/AWS%20Lake%20Formation%20Manage%20Administrators.PNG?raw=true)
 
-Step 3:
+*Step 3:*
 ![Tables](https://github.com/rbpeng/stat359_final_report/blob/master/AWS%20Lake%20Formation%20Tables.PNG?raw=true)
 
-Step 4:
+*Step 4:*
 (Note: the crawlers are created through AWS Glue, which is incorporated into the data lake framework)
 ![Crawlers](https://github.com/rbpeng/stat359_final_report/blob/master/AWS%20Glue%20Crawlers.PNG?raw=true)
 ![Crawler Description](https://github.com/rbpeng/stat359_final_report/blob/master/AWS%20Glue%20Crawler%20Details.PNG?raw=true)
 ![Blueprints](https://github.com/rbpeng/stat359_final_report/blob/master/AWS%20Lake%20Formation%20Blueprints.PNG?raw=true)
 
-Step 5:
+*Step 5:*
+
 (You can see in the following screenshot that I granted Ana permissions to manage the data lake)
 ![Permissions](https://github.com/rbpeng/stat359_final_report/blob/master/AWS%20Lake%20Formation%20Permissions.PNG?raw=true)
 Clicking on "Grant" in the above screenshot leads to:
 ![Grant Permissions](https://github.com/rbpeng/stat359_final_report/blob/master/AWS%20Lake%20Formation%20Grant%20Permissions.PNG?raw=true)
 
-Step 6:
+*Step 6:*
 
 This is where the analytics portion of the data science pipeline begins and the data ingestion portion ends! As of step 5, we have finished setting up the data lake architecture with Lake Formation (and so I didn't work a great deal with these analytics tools beyond what was in the demo walkthrough). Here is a diagram of where Lake Formation fits into the data science framework:
 ![Lake Formation](https://docs.aws.amazon.com/lake-formation/latest/dg/images/overview-diagram.png)
