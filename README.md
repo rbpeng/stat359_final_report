@@ -70,6 +70,7 @@ This is the S3 bucket that the data lake is pointing to:
 ![Tables](https://github.com/rbpeng/stat359_final_report/blob/master/AWS%20Lake%20Formation%20Tables.PNG?raw=true)
 
 *Step 4:*
+
 (Note: the crawlers are created through AWS Glue, which is incorporated into the data lake framework)
 ![Crawlers](https://github.com/rbpeng/stat359_final_report/blob/master/AWS%20Glue%20Crawlers.PNG?raw=true)
 ![Crawler Description](https://github.com/rbpeng/stat359_final_report/blob/master/AWS%20Glue%20Crawler%20Details.PNG?raw=true)
