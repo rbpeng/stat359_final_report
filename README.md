@@ -19,8 +19,8 @@ Here is an example of the csv file produced by the `get_daily_equity_data` funct
 I also did some other work with getting data from APIs with Python, and I used [this guide](https://www.dataquest.io/blog/python-api-tutorial/) for that. 
 
 For my work with deploying a data lake infrastructure and going through the features of the data lake, I mainly used these two following guides from AWS:
-[Quick Start Reference Demo](https://aws-quickstart.s3.amazonaws.com/quickstart-datalake-47lining/doc/data-lake-foundation-on-the-aws-cloud-with-aws-services.pdf)
-[Demo and Walkthrough](https://aws-quickstart.s3.amazonaws.com/quickstart-demo-47lining-datalake-foundation/doc/data-lake-foundation-on-aws-demo-and-walkthrough.pdf)
+1. [Quick Start Reference Demo](https://aws-quickstart.s3.amazonaws.com/quickstart-datalake-47lining/doc/data-lake-foundation-on-the-aws-cloud-with-aws-services.pdf)
+2. [Demo and Walkthrough](https://aws-quickstart.s3.amazonaws.com/quickstart-demo-47lining-datalake-foundation/doc/data-lake-foundation-on-aws-demo-and-walkthrough.pdf)
 
 The work I did with building a data lake involved less coding, so I will mainly provide screenshots so that you can follow along with what I did. The first guide above is what I used to build a new AWS environment consisting of the virtual private cloud (VPC), subnets, NAT gateways, bastion hosts, security groups, and other infrastructure components, and then deploy the data lake services and components into this new VPC. The Quick Start basically builds a data lake foundation that integrates AWS services such as Amazon S3, Amazon Redshift, Amazon Kinesis, Amazon Athena, AWS Glue, Amazon Elasticsearch Service (Amazon ES), Amazon SageMaker, and Amazon
 QuickSight to provide data lake features, such as ingest processing, management, search, transforms, queries, analytics, and visualization. 
