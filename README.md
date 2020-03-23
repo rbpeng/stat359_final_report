@@ -48,7 +48,7 @@ Basically, the steps needed to create and manage a data lake through Lake Format
 1. Registering an Amazon S3 path as a data lake.
 2. Granting Lake Formation permissions to write to the Data Catalog and to Amazon S3 locations in the data lake.
 3. Creating a database to organize the metadata tables in the Data Catalog.
-4. Using blueprints to create a workflow and running the workflow to ingest data from a data source.
+4. Ingesting data from a data source using crawlers and blueprints.
 5. Setting up permissions to allow others to manage data in the Data Catalog and the data lake.
 6. Setting up Amazon Athena to query the data that you imported into the data lake.
 7. Setting up Amazon Redshift Spectrum to query the data that you imported into the S3 data lake.
@@ -64,6 +64,12 @@ This is the S3 bucket that the data lake is pointing to:
 ![S3 bucket](https://github.com/rbpeng/stat359_final_report/blob/master/AWS%20S3%20Submissions%20Bucket.PNG?raw=true)
 
 Step 3:
+![Tables](https://github.com/rbpeng/stat359_final_report/blob/master/AWS%20Lake%20Formation%20Tables.PNG?raw=true)
+
+Step 4:
+![Crawlers](https://github.com/rbpeng/stat359_final_report/blob/master/AWS%20Glue%20Crawlers.PNG?raw=true)
+![Crawler Description](https://github.com/rbpeng/stat359_final_report/blob/master/AWS%20Glue%20Crawler%20Details.PNG?raw=true)
+![Blueprints](https://github.com/rbpeng/stat359_final_report/blob/master/AWS%20Lake%20Formation%20Blueprints.PNG?raw=true)
 
 ## Further Insights
 
