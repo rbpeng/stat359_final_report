@@ -53,6 +53,18 @@ Basically, the steps needed to create and manage a data lake through Lake Format
 6. Setting up Amazon Athena to query the data that you imported into the data lake.
 7. Setting up Amazon Redshift Spectrum to query the data that you imported into the S3 data lake.
 
+Here are screenshots showing how to accomplish each of these steps through Lake Formation:
+
+Steps 1 & 2:
+![Linking a Path as a Data Lake](https://github.com/rbpeng/stat359_final_report/blob/master/AWS%20Lake%20Formation%20How%20to%20Link%20a%20Database.PNG?raw=true)
+
+![Data Lake Locations](https://github.com/rbpeng/stat359_final_report/blob/master/AWS%20Lake%20Formation%20Data%20Lake%20Locations.PNG?raw=true)
+
+This is the S3 bucket that the data lake is pointing to:
+![S3 bucket](https://github.com/rbpeng/stat359_final_report/blob/master/AWS%20S3%20Submissions%20Bucket.PNG?raw=true)
+
+Step 3:
+
 ## Further Insights
 
 Data acquisition and ingestion is one part of the data science pipeline, but it is an extremely pivotal part. Before any analysis is done or any models are created, one needs the data to be stored and managed properly in a manner that allows for analysis and model-building. Nowadays, more and more companies are turning to a data lake infrastructure to handle data ingestion and storage, as data lakes are extremely flexible and allow data of all types to be stored in its raw format. Having an efficient and organized data ingestion pipeline is critical in any data science project, as this is the first step that any data science business must take before any analytics, predictive modeling, or reporting can occur. The need to have a central repository, whether it be a data lake or some other infrastructure, is also very important, as without it, a business is at risk of having different groups performing analytics with incomplete or conflicting data sets, which then has the potential to deliver inconsistent results. When working on a data science project, people tend to think of analytics and results and tend to forget about the data ingestion and management portions, when these portions are just as important in the context of the big picture. Having an efficient, streamlined data ingestion pipeline is a critical component of making sure that the entire data science infrastructure is running smoothly.
